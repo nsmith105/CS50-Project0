@@ -1,0 +1,43 @@
+h1, h2 {
+    color: brown;
+    text-align: center;
+}
+
+#intro {
+    text-align: center;
+    background-color: aquamarine;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#links {
+    background-color: lightgray;
+    border-color: lightgreen;
+    border-width: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link {
+    color:red;
+}
+
+a:visited {
+    color: orangered
+}
+
+ul {
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
