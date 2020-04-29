@@ -1,38 +1,59 @@
-h1, h2 {
-    color: brown;
-    text-align: center;
+h1,
+h2 {
+  color: whitesmoke;
+  text-align: center;
+}
+
+#reqs {
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 #intro {
-    text-align: center;
-    background-color: aquamarine;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-left: 20%;
-    margin-right: 20%;
-    font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: aquamarine;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-#links {
+body {
+  background-image: url(https://images.unsplash.com/photo-1500485035595-cbe6f645feb1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1234&q=80);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container > div {
+  border-width: 3px;
+  border-color: black;
+  border-style: groove;
+  background-color: lightblue;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 15px;
+  padding: 15px;
+}
+
+#randTab, th, td {
+    border: 1px solid black;
     background-color: lightgray;
-    border-color: lightgreen;
-    border-width: 2px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-left: 20%;
-    margin-right: 20%;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-a:link {
-    color:red;
+#tab {
+    align-self: center;
 }
 
-a:visited {
-    color: orangered
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
 }
-
