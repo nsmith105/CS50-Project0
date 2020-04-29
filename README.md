@@ -8,8 +8,8 @@ Below I will list the thing pages and the boxes each page checked
 
 *Stylesheet*
 - at least 5 CSS properties with 5 different selectors
-- - #id, .class, >inheritance, mu lt ip ul es, an @media querey are present (amonst some other thigns)
-- - is also written with a sass variable
+ - #id, .class, >inheritance, mu lt ip ul es, an @media querey are present (amonst some other thigns)
+ - is also written with a sass variable
 
 *Front Page*
 - toolbar is Bootstrap (it's also present on every page and shows which link is active)
@@ -25,6 +25,5 @@ Below I will list the thing pages and the boxes each page checked
 
 *Miscellaneous*
 - Uses bootstraps columns which are responsive
-- Has a simple table
-- 
+- Has a simple table  
 
